@@ -17,6 +17,8 @@ Angular is a Javascript framework that allows you to create reactive SPAs
     ng serve
     ```
     - In the folder where the app lives
+1. Angular is built around the idea of components
+    - Throughout the course, componenst will factor in heavily
 
 ## Using Bootstrap
 
