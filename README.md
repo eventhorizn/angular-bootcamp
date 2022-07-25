@@ -34,3 +34,13 @@ Angular is a Javascript framework that allows you to create reactive SPAs
         "node_modules/bootstrap/dist/css/boostrap.min.css"
     ],
     ```
+
+## Components
+
+1. Creating with the cli
+    ```
+    ng generate component servers
+    ```
+    ```
+    ng gc servers
+    ```
