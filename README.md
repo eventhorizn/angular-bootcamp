@@ -44,3 +44,28 @@ Angular is a Javascript framework that allows you to create reactive SPAs
     ```
     ng gc servers
     ```
+1. Generally with components you have 3 files
+    - name.component.html
+    - name.component.css
+    - name.component.ts
+1. You link the html and css to the component in the ts file
+    ```ts
+    import { Component, OnInit } from '@angular/core';
+
+    @Component({
+        selector: 'app-servers',
+        templateUrl: './servers.component.html',
+        styleUrls: ['./servers.component.css']
+    })
+    export class ServersComponent implements OnInit {
+
+        constructor() { }
+
+        ngOnInit(): void {
+        }
+
+    }
+    ```
+    - You can also put the html in a `template` section on the component as a string block
+        - No thanks
+    - You can do the same with styles
