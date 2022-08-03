@@ -35,7 +35,7 @@ Angular is a Javascript framework that allows you to create reactive SPAs
    ],
    ```
 
-## Components
+# Components
 
 1. Creating with the cli
    ```
@@ -104,5 +104,3 @@ export class ServerComponent {
 ```
 
 ### Property Binding
-
-this is a test
