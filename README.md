@@ -103,4 +103,6 @@ export class ServerComponent {
 <p>Server with Id {{ serverId }} is {{ getServerStatus() }}</p>
 ```
 
-### Property Binding
+# Course Project
+
+## Setup
