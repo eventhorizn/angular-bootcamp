@@ -103,6 +103,8 @@ export class ServerComponent {
 <p>Server with Id {{ serverId }} is {{ getServerStatus() }}</p>
 ```
 
-# Course Project
+# Debugging
 
-## Setup
+1. Angular merges everything together, so console errors won't tell you exactly where in your code the problem is occuring
+1. Angular uses sourcemaps which allow you to debug into typescript files
+   - Under sources: webpack > src
