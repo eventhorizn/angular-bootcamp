@@ -18,7 +18,8 @@ Angular is a Javascript framework that allows you to create reactive SPAs
    ```
    - In the folder where the app lives
 1. Angular is built around the idea of components
-   - Throughout the course, componenst will factor in heavily
+   - Throughout the course, components will factor in heavily
+1. [Angular Docs](https://angular.io/guide/architecture)
 
 ## Using Bootstrap
 
@@ -68,40 +69,6 @@ Angular is a Javascript framework that allows you to create reactive SPAs
    - You can also put the html in a `template` section on the component as a string block
      - No thanks
    - You can do the same with styles
-
-## Databinding
-
-1. Tying business logic to your template
-   - Output Data (Business logic to template)
-     - String Interpolation
-     - Property Binding
-   - React to (User) Events
-     - Event Binding
-   - Combination
-     - Two-Way Binding
-
-### String Interpolation
-
-```ts
-import { Component } from '@angular/core';
-
-@Component({
-	selector: 'app-server',
-	templateUrl: './server.component.html',
-})
-export class ServerComponent {
-	serverId: number = 10;
-	serverStatus: string = 'offline';
-
-	getServerStatus() {
-		return this.serverStatus;
-	}
-}
-```
-
-```html
-<p>Server with Id {{ serverId }} is {{ getServerStatus() }}</p>
-```
 
 # Debugging
 
