@@ -75,3 +75,13 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 1. Angular merges everything together, so console errors won't tell you exactly where in your code the problem is occuring
 1. Angular uses sourcemaps which allow you to debug into typescript files
    - Under sources: webpack > src
+
+# Directives
+
+1. [Official Docs](https://angular.io/guide/built-in-directives)
+1. Directives are used to add css classes
+   - Change appearance or behavior
+1. Also used to add and remove DOM elements
+1. This allows us to programatically apply elements and css to DOM stuff
+1. We tie our html to our class
+   - Refer to the code section for directivess
