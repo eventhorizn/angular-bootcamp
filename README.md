@@ -84,4 +84,9 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 1. Also used to add and remove DOM elements
 1. This allows us to programatically apply elements and css to DOM stuff
 1. We tie our html to our class
-   - Refer to the code section for directivess
+   - Refer to the code section for directives
+
+# Dependency Injection and Services
+
+1. [Official Docs](https://angular.io/guide/dependency-injection)
+1. Official docs has us using the `@Injectable` decorator, but project doesn't
