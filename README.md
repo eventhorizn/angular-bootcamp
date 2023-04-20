@@ -90,3 +90,7 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 
 1. [Official Docs](https://angular.io/guide/dependency-injection)
 1. Official docs has us using the `@Injectable` decorator, but project doesn't
+
+# Routing
+
+1. [Official Docs](https://angular.io/guide/routing-overview)
