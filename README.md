@@ -94,3 +94,9 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 # Routing
 
 1. [Official Docs](https://angular.io/guide/routing-overview)
+
+# Observables
+
+1. Angular has built in observables, but recommends using RxJS
+   - [Official Docs](https://angular.io/guide/rx-library)
+   - Uses subscriptions
