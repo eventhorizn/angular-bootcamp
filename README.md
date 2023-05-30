@@ -100,3 +100,16 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 1. Angular has built in observables, but recommends using RxJS
    - [Official Docs](https://angular.io/guide/rx-library)
    - Uses subscriptions
+
+# Pipes
+
+1. [Official Docs](https://angular.io/guide/pipes-overview)
+1. Pipes aren't re-calc'd on data changes by default
+   - A filter pipe won't show new items that are added when the filter is in effect by default
+   - Can turn this off in the decorator (but maybe not recommended)
+   ```ts
+   @Pipe({
+   name: 'filter',
+   pure: false,
+   })
+   ```
