@@ -113,3 +113,7 @@ Angular is a Javascript framework that allows you to create reactive SPAs
    pure: false,
    })
    ```
+
+# Http
+
+1. Using firebase realtime db as our backend
