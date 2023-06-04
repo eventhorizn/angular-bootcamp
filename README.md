@@ -117,3 +117,9 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 # Http
 
 1. Using firebase realtime db as our backend
+
+# Auth
+
+1. Firebase again
+   - It has it's own auth section, where we've used username/password
+   - [Official Docs](https://firebase.google.com/docs/reference/rest/auth)
