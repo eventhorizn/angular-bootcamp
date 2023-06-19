@@ -123,3 +123,7 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 1. Firebase again
    - It has it's own auth section, where we've used username/password
    - [Official Docs](https://firebase.google.com/docs/reference/rest/auth)
+
+# Dynamic Component Loader
+
+[Official Docs](https://angular.io/guide/dynamic-component-loader)
