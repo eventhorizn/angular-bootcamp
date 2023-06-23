@@ -4,6 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: 100;
   background: rgba(0, 0, 0, 0.75);
 }
 
@@ -13,7 +14,7 @@
   left: 20vw;
   width: 60vw;
   padding: 16px;
-  z-index: 100;
+  z-index: 200;
   background: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
