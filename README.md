@@ -127,3 +127,38 @@ Angular is a Javascript framework that allows you to create reactive SPAs
 # Dynamic Component Loader
 
 [Official Docs](https://angular.io/guide/dynamic-component-loader)
+
+# Deployment
+
+1. Use an environment file for secrets
+1. Generate deploy files
+   ```
+   ng build
+   ```
+1. Static website host
+
+   - [Firebase hosting](https://firebase.google.com/docs/hosting)
+
+   ```npm
+   npm install -g firebase-tools
+   ```
+
+   - Login
+
+   ```
+   firebase login
+   ```
+
+   - Initialize
+
+   ```
+   firebase init
+   ```
+
+   - Lots of steps
+   - Should be pretty easy to figure out by the options
+   - Deploy
+
+   ```
+   firebase deploy
+   ```
